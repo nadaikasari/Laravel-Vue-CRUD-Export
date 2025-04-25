@@ -20,8 +20,21 @@ class TransactionService
         $perPage = $request->input('per_page', 10);
         $page = $request->input('page', 1);
         $search = $request->input('search', '');
+        $selectedPeriode = $request->input('periode');
 
         $criteria = [];
+
+        if (!empty($selectedPeriode['from']) || !empty($selectedPeriode['to'])) {
+            $formattedStartDate = Carbon::parse($selectedPeriode['from'])->format('Y-m-d H:i:s');
+            $formattedEndDate = Carbon::parse($selectedPeriode['to'])->format('Y-m-d H:i:s');            
+
+            if ($formattedStartDate === $formattedEndDate) {
+                $criteria[] = ['order_date', 'like', "%$formattedStartDate%"];
+            } else {
+                $criteria[] = ['order_date', 'BETWEEN', [$formattedStartDate, $formattedEndDate]];
+            }
+        }
+
         $joins = [];
         $attributes = [
             'id', 'order_no', 'customer_name', 'order_date', 'grand_total'

@@ -30,7 +30,7 @@
     
     const { formatDateWithoutTime } = useFormattedDate();
     const { formatCurrency } = useFormattedCurrency();
-    const { searchQuery, itemsPerPage, currentPage, changePage, changeItemsPerPage, initFromUrl } = useDataSearch(
+    const { searchQuery, initFromUrl } = useDataSearch(
         `/orders`,
         '10',
         filters
