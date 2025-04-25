@@ -1,4 +1,4 @@
-# Laravel Project with Docker (MySQL Only)
+![image](https://github.com/user-attachments/assets/714a077f-88f7-4ed4-9181-6a2275b9f663)# Laravel Project with Docker (MySQL Only)
 
 This project is a Laravel-based application with Docker used only for running MySQL. Laravel's backend and Vue.js frontend are managed locally.
 
@@ -93,6 +93,8 @@ php artisan db:seed
 <img width="1158" alt="image" src="https://github.com/user-attachments/assets/7acca1ac-eb66-4d21-859c-113b63466af4" />
 <img width="1061" alt="image" src="https://github.com/user-attachments/assets/658289ae-844b-4c9d-aea2-04ac437d9f44" />
 
+Terdapat sedikit bug pada fitur rentang tanggal, di mana latar belakang menjadi transparan. Saat ini saya sedang mencari masalah tersebut, dan mohon maaf atas ketidaknyamanan yang ditimbulkan.
+![image](https://github.com/user-attachments/assets/84f9642c-bc4b-406d-9061-d282c55945bc)
 
 
 
