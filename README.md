@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/714a077f-88f7-4ed4-9181-6a2275b9f663)# Laravel Project with Docker (MySQL Only)
-
+# Laravel Project with Docker (MySQL Only)
 This project is a Laravel-based application with Docker used only for running MySQL. Laravel's backend and Vue.js frontend are managed locally.
 
 ## Prerequisites
