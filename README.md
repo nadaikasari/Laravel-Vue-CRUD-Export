@@ -1,4 +1,4 @@
-# Laravel Project with Docker (MySQL Only)
+# Laravel Project with Vue3
 This project is a Laravel-based application with Docker used only for running MySQL. Laravel's backend and Vue.js frontend are managed locally.
 
 ## ✨ Features
