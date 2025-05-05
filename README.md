@@ -1,6 +1,17 @@
 # Laravel Project with Docker (MySQL Only)
 This project is a Laravel-based application with Docker used only for running MySQL. Laravel's backend and Vue.js frontend are managed locally.
 
+## ✨ Features
+
+- ✅ **CRUD Operations**  
+  Create, read, update, and delete records via clean user interfaces and Laravel API routes.
+
+- ✅ **Search & Filtering**  
+  Search through records using keyword filters and field-based filtering options.
+
+- ✅ **Export to Excel**  
+  Export filtered or all data—up to **6000 records**—to an Excel file effortlessly.
+
 ## Prerequisites
 
 Ensure that you have the following software installed:
@@ -86,8 +97,7 @@ php artisan migrate
 php artisan db:seed
 ```
 
-## Feature
-CRUD and Export data 
+## Screenshot
 ![image](https://github.com/user-attachments/assets/c6313fe7-3334-40d8-bffb-89c8a7851709)
 ![image](https://github.com/user-attachments/assets/601132e2-6294-412e-8ac3-b5b70b3709c4)
 <img width="1158" alt="image" src="https://github.com/user-attachments/assets/7acca1ac-eb66-4d21-859c-113b63466af4" />
