@@ -86,14 +86,12 @@ php artisan migrate
 php artisan db:seed
 ```
 
-## Screenshot Feature
+## Feature
+CRUD and Export data 
 ![image](https://github.com/user-attachments/assets/c6313fe7-3334-40d8-bffb-89c8a7851709)
 ![image](https://github.com/user-attachments/assets/601132e2-6294-412e-8ac3-b5b70b3709c4)
 <img width="1158" alt="image" src="https://github.com/user-attachments/assets/7acca1ac-eb66-4d21-859c-113b63466af4" />
 <img width="1061" alt="image" src="https://github.com/user-attachments/assets/658289ae-844b-4c9d-aea2-04ac437d9f44" />
-
-Terdapat sedikit bug pada fitur rentang tanggal, di mana latar belakang menjadi transparan. Saat ini saya sedang mencari masalah tersebut, dan mohon maaf atas ketidaknyamanan yang ditimbulkan.
-![image](https://github.com/user-attachments/assets/84f9642c-bc4b-406d-9061-d282c55945bc)
 
 
 
